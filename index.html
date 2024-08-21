@@ -18,9 +18,57 @@
         .manrope{
             font-family: "Manrope", sans-serif;
         }
+        .bg-color{
+          background: linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+        }
     </style>
 </head>
 <body>
-    
+    <header class="max-w-[1320px] border mx-auto bg-color">
+      <!-- Navbar start here... -->
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <!-- logo -->
+            <div class="lg:ml-[30px] flex items-center">
+              <i class="fa-solid fa-arrow-up w-6 h-6 text-center -mr-[10px] border rounded-full rotate-45 p-[2px] bg-[#ABEF5F]"></i>
+              <a class="btn btn-ghost text-xl manrope">Rinterio</a>
+            </div>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li class="font-bold "><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end gap-3">
+            <i class="fa-solid fa-magnifying-glass mr-2 cursor-pointer hidden lg:block"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 cursor-pointer hidden lg:block">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+            </svg>
+            <button class="btn bg-[#ABEF5F] hidden lg:block">Book Consult <i class="fa-solid fa-arrow-up text-white bg-black w-6 h-6 text-center border rounded-full rotate-45 p-[3px]"></i></button>
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <i class="fa-solid fa-bars text-2xl"></i>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
 </body>
 </html>
