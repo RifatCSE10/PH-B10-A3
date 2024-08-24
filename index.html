@@ -21,6 +21,9 @@
         .bg-color{
           background: linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
         }
+        .card-bg{
+          background: rgba(0,0,0,0.6);
+        }
     </style>
 </head>
 <body class="scroll-smooth">
@@ -282,6 +285,60 @@
             </div>
           </div>
         </div>
+        <!-- Our team section -->
+        <div class="max-w-[1120px] mx-auto my-10 ">
+          <h1 class="text-5xl text-center font-bold manrope my-6 text-[#212121] ">Meet the team</h1>
+          <p class="text-sm text-center text-[#737373] mb-10  ">Our team of architects collaborate to focus on improving the functionality
+            of your property by optimizing the space.</p>
+          <!-- Team card container.. -->
+          <div class=" grid grid-cols-1 gap-3 mx-auto lg:grid-cols-4">
+            <!-- Team Card-1 -->
+            <div class="w-[250px]  relative rounded-xl mx-auto cursor-pointer">
+              <div class="w-full h-[350px] border rounded-xl">
+                <img class="w-full h-full rounded-xl" src="./assets/team-1.jpg" alt="team-1_img">
+              </div>
+              <!-- content -->
+              <div class=" absolute top-0 left-0 w-full  h-full   rounded-xl  card-bg ">
+                <h2 class="text-center mt-[50%] text-2xl text-white manrope">Asif Islam</h2>
+                <h2 class="text-center mt-1 text-xl text-red-600 ">CEO & Founder</h2>
+              </div>
+            </div>
+            <!-- Team card-2 -->
+            <div class="w-[250px]  relative rounded-xl mx-auto cursor-pointer">
+              <div class="w-full h-[350px] border rounded-xl">
+                <img class="w-full h-full rounded-xl" src="./assets/team-2.jpg" alt="team-1_img">
+              </div>
+              <!-- content -->
+              <div class=" absolute top-0 left-0 w-full  h-full   rounded-xl  card-bg ">
+                <h2 class="text-center mt-[50%] text-2xl text-white manrope">Iffat Tasnim</h2>
+                <h2 class="text-center mt-1 text-xl text-red-600 ">Creative Director</h2>
+              </div>
+            </div>
+            <!-- Team card-3 -->
+              <div class="w-[250px]  relative rounded-xl mx-auto cursor-pointer">
+                  <div class="w-full h-[350px] border rounded-xl">
+                    <img class="w-full h-full rounded-xl" src="./assets/team-3.jpg" alt="team-1_img">
+                  </div>
+                  <!-- content -->
+                  <div class=" absolute top-0 left-0 w-full  h-full   rounded-xl  card-bg ">
+                    <h2 class="text-center mt-[50%] text-2xl text-white manrope">Adiba Tasnim</h2>
+                    <h2 class="text-center mt-1 text-xl text-red-600 ">Design Director</h2>
+                  </div>
+              </div>
+            <!-- Team card-4 -->
+            <div class="w-[250px]  relative rounded-xl mx-auto cursor-pointer">
+              <div class="w-full h-[350px] border rounded-xl">
+                <img class="w-full h-full rounded-xl" src="./assets/team-4.jpg" alt="team-1_img">
+              </div>
+              <!-- content -->
+              <div class=" absolute top-0 left-0 w-full  h-full   rounded-xl  card-bg ">
+                <h2 class="text-center mt-[50%] text-2xl text-white manrope">Saifullah Sammo</h2>
+                <h2 class="text-center mt-1 text-xl text-red-600 ">Architecht</h2>
+              </div>
+            </div>
+
+          </div>
+        </div>
         <!-- Form section start... -->
         <div class="max-w-[1320px] mx-auto  h-[800px] relative ">
           <!-- bg-img box -->
@@ -318,7 +375,6 @@
           </div>
               <p class="text-[#737373] text-sm ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
             <br/>
-          
           <ul class="text-[#E9E9E9] lg:flex lg:justify-center lg:items-center lg:gap-5">
             <li><a class="text-sm manrope " href="#">Home</a></li>
             <li><a class="text-sm manrope " href="#">Services</a></li>
@@ -328,7 +384,7 @@
           </ul>
         </aside>
         <nav>
-          <div class="">
+          <div>
            <button class="btn -btn-primary text-sm manrope bg-[#ABEF5F] font-bold rounded-[64px] border-none " >Book Consult <i class="fa-solid fa-arrow-up ml-2 w-7 h-7  bg-black text-white pt-1 rounded-full rotate-45 "></i></button>
           </div>
         </nav>
